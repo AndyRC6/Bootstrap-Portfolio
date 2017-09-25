@@ -1,0 +1,18 @@
+
+body{
+	background-image: url(../images/ep_naturalwhite.PNG)
+}
+.navbar-brand{
+	background-color:#4aaaa5;
+}
+.navbar-brand:hover,
+.navbar-brand:focus{
+	background-color:#4aaaa5 !important;
+}
+.navbar-brand span{
+	color:white;
+}
+nav{
+	border-bottom:solid !important;
+	border-bottom-color: #D0D0D0 !important;
+}
