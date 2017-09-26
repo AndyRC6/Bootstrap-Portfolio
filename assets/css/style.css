@@ -16,3 +16,26 @@ nav{
 	border-bottom:solid !important;
 	border-bottom-color: #D0D0D0 !important;
 }
+.panel-heading{
+	background-color:white !important;
+}
+.icon-list li{
+	float:left;
+	width:64px;
+	margin-left:30px;
+}
+.icon-image{
+	/*float:left;
+	width:95px;*/
+}
+.footer{
+	background-color:#666666;
+	border-top:solid;
+	border-top-color:#4aaaa5;
+	border-top-width:4px;
+}
+.footer p{
+	color:white;
+	text-align:center;
+	margin-top:15px;
+}
