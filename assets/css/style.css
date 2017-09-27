@@ -2,27 +2,22 @@
 body{
 	background-image: url(../images/ep_naturalwhite.PNG)
 }
-.navbar-brand{
-	background-color:#4aaaa5;
+.nbar{
+	/*background-color:#4aaaa5;*/
 }
-.navbar-brand:hover,
-.navbar-brand:focus{
-	background-color:#4aaaa5 !important;
+.nbar:hover,
+.nbar:focus{
+	/*background-color:#4aaaa5;*/
 }
-.navbar-brand span{
+.nbar span{
 	color:white;
 }
 nav{
-	border-bottom:solid !important;
+	border-bottom:solid;
 	border-bottom-color: #D0D0D0 !important;
 }
-.panel-heading{
-	background-color:white !important;
-}
-.icon-list li{
-	float:left;
-	width:64px;
-	margin-left:30px;
+.connectHeading{
+	/*background-color:white !important;*/
 }
 .icon-image{
 	/*float:left;
@@ -31,11 +26,25 @@ nav{
 .footer{
 	background-color:#666666;
 	border-top:solid;
-	border-top-color:#4aaaa5;
+	border-top-color:white;
 	border-top-width:4px;
 }
 .footer p{
 	color:white;
 	text-align:center;
 	margin-top:15px;
+	font-size:12px;
+}
+.panelHeader1{
+	font-size:28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:black;
+}
+.panelHeader2{
+	font-size:28px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color:white;
+}
+.panelHeaderDiv{
+	background-color: white !important;
 }
