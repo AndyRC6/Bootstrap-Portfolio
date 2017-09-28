@@ -26,7 +26,7 @@ nav{
 .footer{
 	background-color:#666666;
 	border-top:solid;
-	border-top-color:#3498db;
+	border-top-color:#2c3e50;
 	border-top-width:4px;
 }
 .footer p{
@@ -51,4 +51,24 @@ nav{
 }
 .wholePanel{
 	border:none;
+}
+.portfolio-text{
+	position:relative;
+	background-color:#2c3e50; 
+	color:white;
+	text-align: center;
+	padding-top:12px;
+	bottom:70px;
+	height:50px;
+}
+.portfolio-img-container{
+	width:350px;
+}
+.portfolio-img{
+	width:350px;
+	height:200px;
+	transition: 1s ease;
+}
+.portfolio-img:hover{
+	opacity:0.7;
 }
