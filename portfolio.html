@@ -6,9 +6,11 @@
 	<link rel="shortcut icon" href="assets/images/if_vector_65_05_473784.png" type="image/x-icon">
 
 	<!-- CSS Links -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css" rel="stylesheet" integrity="sha384-+ENW/yibaokMnme+vBLnHMphUYxHs34h9lpdbSLuAwGkOKFRl4C34WkjazBtb7eT" crossorigin="anonymous">
+	
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
@@ -17,6 +19,13 @@
 </head>
 
 <body>
+	<script>
+		$(document).ready(function(){
+			$("#crashpadlink").on("click", function(){
+				window.open("http://www.studentcrashpads.com");
+			})
+		})
+	</script>
 	<!-- Beginning of NavBar -->
 
 	<nav class="navbar navbar-default" role="navigation">
@@ -60,8 +69,8 @@
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-5 portfolio-img-container">
-								<img src="assets/images/pexels-photo-269481.jpeg" class="img-responsive portfolio-img" alt="Image">
-								<p class="portfolio-text">Hangman</p>
+								<img id="crashpadlink" src="assets/images/pexels-photo-269481.jpeg" class="img-responsive portfolio-img" alt="Image">
+								<p class="portfolio-text">CrashPad</p>
 							</div>
 							<div class="col-md-5 portfolio-img-container">
 								<img src="assets/images/game-controller-joystick-joypad-gamepad-159204.jpeg" class="img-responsive portfolio-img" alt="Image">
